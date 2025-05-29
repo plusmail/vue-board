@@ -9,6 +9,9 @@ import Chart from "../views/ChartView.vue";
 import Card from "../views/CardView.vue";
 import Blank from "../views/BlankView.vue";
 import NotFound from "../views/NotFound.vue";
+import Admin from "../views/AppAdmin.vue";
+import Bus from "../views/AppBus.vue";
+import LostItems from "../views/AppLostItems.vue";
 
 const routes = [
   {
@@ -21,6 +24,21 @@ const routes = [
     path: "/dashboard",
     name: "Dashboard",
     component: Dashboard,
+  },
+  {
+    path: "/admin",
+    name: "Admin",
+    component: Admin,
+  },
+  {
+    path: "/bus",
+    name: "Bus",
+    component: Bus,
+  },
+  {
+    path: "/lost-items",
+    name: "LostItems",
+    component: LostItems,
   },
   {
     path: "/forms",
