@@ -8,7 +8,7 @@
     ></apexchart>
   </div>
 </template>
-<script lang="ts" setup>
+<script setup>
 import { ref } from "vue";
 const options = ref({
   chart: {

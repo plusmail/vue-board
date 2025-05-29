@@ -331,27 +331,43 @@
   </div>
 </template>
 
-<script setup lang="ts">
-import { ref } from "vue";
-import Banner from "../partials/AppBanner.vue";
-import Breadcrumb from "../partials/AppBreadcrumb.vue";
-interface User {
-  name: string;
-  email: string;
-  title: string;
-  title2: string;
-  status: string;
-  role: string;
-}
+<script setup>
+import { ref } from 'vue'
+import Breadcrumb from '../partials/AppBreadcrumb.vue'
+import Banner from '../partials/AppBanner.vue'
 
-const testUser: User = {
-  name: "John Doe",
-  email: "john@example.com",
-  title: "Software Engineer",
-  title2: "Web dev",
-  status: "Active",
-  role: "Owner",
-};
-
-const users = ref<User[]>([...Array(10).keys()].map(() => testUser));
+const users = ref([
+  {
+    name: 'John Doe',
+    email: 'john@example.com',
+    title: 'Software Engineer',
+    title2: 'Web dev',
+    status: 'Active',
+    role: 'Owner',
+  },
+  {
+    name: 'Jane Doe',
+    email: 'jane@example.com',
+    title: 'Software Engineer',
+    title2: 'UI/UX',
+    status: 'Active',
+    role: 'Member',
+  },
+  {
+    name: 'John Smith',
+    email: 'smith@example.com',
+    title: 'Software Engineer',
+    title2: 'Web dev',
+    status: 'Active',
+    role: 'Member',
+  },
+  {
+    name: 'Jane Smith',
+    email: 'smith@example.com',
+    title: 'Software Engineer',
+    title2: 'UI/UX',
+    status: 'Active',
+    role: 'Member',
+  },
+])
 </script>

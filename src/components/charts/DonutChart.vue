@@ -9,7 +9,7 @@
   </div>
 </template>
 
-<script lang="ts" setup>
+<script setup>
 import { ref } from "vue";
 const options = ref({});
 const series = ref([44, 55, 41, 17, 15]);

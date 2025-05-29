@@ -350,11 +350,10 @@
   </header>
 </template>
 
-<script setup lang="ts">
-import { ref } from "vue";
-import { useSidebar } from "../hooks/useSidebar";
+<script setup>
+import { ref } from 'vue'
 
-const dropdownOpen = ref(false);
-const { isOpen } = useSidebar();
-const notificationOpen = ref(false);
+const dropdownOpen = ref(false)
+const notificationOpen = ref(false)
+const isOpen = ref(false)
 </script>

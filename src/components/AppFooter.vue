@@ -10,8 +10,8 @@
   </div>
 </template>
 
-<script lang="ts" setup>
+<script setup>
 import { ref } from "vue";
 
-const currentYear = ref<number>(new Date().getFullYear());
+const currentYear = ref(new Date().getFullYear());
 </script>

@@ -144,22 +144,15 @@
   </div>
 </template>
 
-<script setup lang="ts">
+<script setup>
 import { ref } from 'vue'
 import Breadcrumb from '../partials/AppBreadcrumb.vue'
 
-interface User {
-  username: string
-  email: string
-  password: string
-  confirm: string
-}
-
-const user = ref<User>({
+const user = ref({
   username: '',
   email: '',
   password: '',
-  confirm: '',
+  confirm: ''
 })
 
 const register = () => {

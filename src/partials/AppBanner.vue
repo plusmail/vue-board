@@ -15,7 +15,7 @@
       "
     >
       <div>
-        ðŸ‘‰
+        ?‘‰
         <a
           class="hover:underline"
           href="https://github.com/tal7aouy/vue-board"
@@ -39,7 +39,7 @@
   </div>
 </template>
 
-<script lang="ts" setup>
+<script setup>
 import { ref } from "vue";
 const open = ref(true);
 </script>

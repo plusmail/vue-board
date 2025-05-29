@@ -15,7 +15,7 @@
   </div>
 </template>
 
-<script setup lang="ts">
+<script setup>
 import Sidebar from './AppSidebar.vue'
 import Header from './AppHeader.vue'
 import Footer from './AppFooter.vue'

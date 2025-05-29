@@ -88,7 +88,7 @@
   </div>
 </template>
 
-<script setup lang="ts">
+<script setup>
 import { ref } from 'vue'
 import Breadcrumb from '../partials/AppBreadcrumb.vue'
 

@@ -28,7 +28,7 @@
   </div>
 </template>
 
-<script setup lang="ts">
+<script setup>
 import Breadcrumb from "../partials/AppBreadcrumb.vue";
 import DonutChart from "@/components/charts/DonutChart.vue";
 import LineChart from "@/components/charts/LineChart.vue";
